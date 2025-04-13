@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/6909c25352.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="bg-gradient-to-r from-[#00396E] via-[#00396E] via-60% to-[#CC3333] text-white p-4"
+      >
+        <input type="checkbox" id="menu-toggle" class="peer hidden" />
+
+        <header class="flex items-center justify-between">
+          <i class="fa-brands fa-webflow"></i>
+          <a href="#" class="text-2xl font-bold">WEBD</a>
+
+          <ul class="hidden md:flex space-x-6 ml-auto">
+            <li><a href="#" class="hover:underline">Services</a></li>
+            <li><a href="#" class="hover:underline">Industries</a></li>
+            <li><a href="#" class="hover:underline">Free Tools</a></li>
+            <li><a href="#" class="hover:underline">About</a></li>
+            <li>
+              <button
+                class="font-bold rounded-full bg-white text-black px-4 hover:bg-blue-800"
+              >
+                Login
+              </button>
+            </li>
+          </ul>
+
+          <label for="menu-toggle" class="cursor-pointer md:hidden ml-auto">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </label>
+        </header>
+        <ul
+          class="peer-checked:block hidden text-center bg-slate-50 mt-2 p-4 md:hidden"
+        >
+          <li>
+            <a
+              href="#"
+              class="block text-stone-950 text-2xl hover:underline py-2"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block text-stone-950 text-2xl hover:underline py-2"
+              >Industries</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block text-stone-950 text-2xl hover:underline py-2"
+              >Free Tools</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block text-stone-950 text-2xl hover:underline py-2"
+              >About</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="flex flex-col-reverse md:flex-row align-center bg-gradient-to-r from-[#00396E] via-[#00396E] via-60% to-[#CC3333]"
+      >
+        <article class="pl-4">
+          <h1 class="text-pink-200 md:mt-48 text-3xl">
+            WEBD - Web Design Company
+          </h1>
+          <h6 class="text-6xl text-stone-50">SKYROCKET YOUR WEBSITE</h6>
+          <p class="text-2xl text-blue-400 font-semibold">
+            A Premium Website Solution for Business Owners that want to
+            Skyrocket past the competition.
+          </p>
+          <button
+            class="mb-4 ml-4 mt-4 rounded-full text-xl hover:scale-110 p-2 hover:border border-red-200 bg-gradient-to-r from-[#3C7CBF] via-[#3C7CBF] via-60% to-[#CC3333]"
+          >
+            <a href="form.html">Start Project</a>
+          </button>
+        </article>
+        <figure>
+          <img
+            class="h-auto"
+            src="https://www.awebco.com/wp-content/themes/framework/img/website-design-launch-min.png"
+          />
+        </figure>
+      </section>
+      <section
+        class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-3 gap-6 place-items-stretch p-6"
+      >
+        <article
+          class="bg-[#F0F0F2] shadow-md rounded-2xl p-4 flex flex-col items-center bg-gradient-to-r from-[#3C7CBE] to-[#0B3B6E] transform transition duration-300 hover:scale-105 hover:shadow-2xl h-full"
+        >
+          <header class="place-items-center">
+            <figure>
+              <img
+                src="https://www.awebco.com/wp-content/themes/framework/img/website-development-services-1.png"
+                alt="Profile"
+                class="w-32 h-32 mb-4 hover:scale-110"
+              />
+            </figure>
+            <figcaption>
+              <h2 class="text-xl text-slate-50 font-semibold">
+                WEB DEVELOPMENT
+              </h2>
+            </figcaption>
+          </header>
+          <p class="text-blue-300 text-justify pt-6 flex-grow">
+            Crafting captivating online experiences that resonate with your
+            brand’s essence and engage your audience effectively.
+          </p>
+        </article>
+        <article
+          class="bg-[#F0F0F2] shadow-md rounded-2xl p-4 flex flex-col items-center bg-gradient-to-r from-[#3C7CBE] to-[#0B3B6E] transform transition duration-300 hover:scale-105 hover:shadow-2xl h-full"
+        >
+          <header class="place-items-center">
+            <figure>
+              <img
+                src="https://www.awebco.com/wp-content/themes/framework/img/website-design-services.png"
+                alt="Profile"
+                class="w-32 h-32 mb-4 hover:scale-110"
+              />
+            </figure>
+            <figcaption>
+              <h2 class="text-xl text-slate-50 font-semibold">WEB DESIGN</h2>
+            </figcaption>
+          </header>
+          <p class="text-blue-300 text-justify pt-6 flex-grow">
+            Bringing your vision and designs to life with precision coding on a
+            wordpress platform and integrated innovative solutions.
+          </p>
+        </article>
+        <article
+          class="bg-[#F0F0F2] shadow-md rounded-2xl p-4 flex flex-col items-center bg-gradient-to-r from-[#3C7CBE] to-[#0B3B6E] transform transition duration-300 hover:scale-105 hover:shadow-2xl h-full"
+        >
+          <header class="place-items-center">
+            <figure>
+              <img
+                src="https://www.awebco.com/wp-content/themes/framework/img/search-engine-optimization-services.png"
+                alt="Profile"
+                class="w-32 h-32 mb-4 hover:scale-110"
+              />
+            </figure>
+            <figcaption>
+              <h2 class="text-xl text-slate-50 font-semibold">S.E.0</h2>
+            </figcaption>
+          </header>
+          <p class="text-blue-300 text-justify pt-6 flex-grow">
+            Elevate your online presence with our SEO service. We enhance your
+            website’s visibility, rankings, and drive organic traffic.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
